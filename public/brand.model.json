@@ -1,0 +1,62 @@
+{
+	"title": "Brand name",
+	":children": {
+		"/home": {
+			"title": "Home page",
+			":type": "EditablePage",
+			":items": {
+				"root": {
+					":items": {
+						"responsivegrid": {
+							":items": {
+								"image": {
+									":type": "Image",
+									"alt": "Aerial photo of mountain range",
+									"title": "Aerial photo of mountain range",
+									"src": "/images/banner.jpg"
+								},
+								"banner1": {
+									":type": "Banner",
+									"image": "/images/banner.jpg",
+									"heading": "Banner heading",
+									"link": "http://www.google.com",
+									"description": "Drive in the Himalayas!",
+									"label": "Buy now",
+									"alignment": "orient-right content-align-right"
+								},
+								"card": {
+									":type": "Card",
+									"text": "<p>Hello! How are you doing?<br>\n</p>\n",
+									"richText": true
+								},
+								"banner2": {
+									":type": "Banner",
+									"image": "/images/banner.jpg",
+									"heading": "Banner # 2",
+									"link": "http://www.google.com",
+									"description": "Drive in the Himalayas!",
+									"label": "Buy now",
+									"alignment": "orient-left content-align-left"
+								}
+							},
+							":itemsOrder": [
+								"image",
+								"banner1",
+								"card",
+								"banner2"
+							],
+							":type": "wcm/foundation/components/responsivegrid"
+						}
+					},
+					":itemsOrder": [
+						"responsivegrid"
+					],
+					":type": "wcm/foundation/components/responsivegrid"
+				}
+			},
+			":itemsOrder": [
+				"root"
+			]
+		}
+	}
+}
