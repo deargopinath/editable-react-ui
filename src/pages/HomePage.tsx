@@ -1,7 +1,7 @@
 import React from 'react'
 import {Page, withModel, EditorContext, Utils} from '@adobe/cq-react-editable-components'
 
-class App extends Page {
+class HomePage extends Page {
     render() {
       return (
         <div className="App">
@@ -13,4 +13,4 @@ class App extends Page {
      )
     }
 }
-export default withModel(App)
+export default withModel(HomePage)
