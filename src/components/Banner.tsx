@@ -20,21 +20,20 @@ class Banner extends React.Component<IBanner> {
 
   render() {
     return (
-      <section className={this.props.alignment
-        + "spotlight style1 image-position-center onscroll-image-fade-in"}>
+      <section className={this.props.alignment + " spotlight style1 image-position-center onscroll-image-fade-in"}>
         <div className="content">
-            <h2>{this.props.heading}</h2>
-            <p>{this.props.description}</p>
-            <ul className="actions stacked">
-                <li>
-                    <a href={this.props.link} className="button">
-                        {this.props.label}
-                    </a>
-                </li>
-            </ul>
+          <h2>{this.props.heading}</h2>
+          <p>{this.props.description}</p>
+          <ul className="actions stacked">
+            <li>
+              <a href={this.props.link} className="button">
+                {this.props.label}
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="image">
-            <img src={this.props.image} alt={this.props.heading} />
+          <img src={this.props.image} alt={this.props.heading} />
         </div>
       </section>
     )
